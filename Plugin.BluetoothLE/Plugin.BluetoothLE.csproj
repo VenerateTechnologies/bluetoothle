@@ -18,7 +18,7 @@
       * UWP
     </Description>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
-    <PackageVersion>6.3.0</PackageVersion>
+    <PackageVersion>6.3.1</PackageVersion>
 
     <RepositoryUrl>https://github.com/aritchie/bluetoothle</RepositoryUrl>
     <PackageProjectUrl>https://github.com/aritchie/bluetoothle</PackageProjectUrl>
