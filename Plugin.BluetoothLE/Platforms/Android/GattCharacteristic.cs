@@ -295,5 +295,13 @@ namespace Plugin.BluetoothLE
 
              return BluetoothGattDescriptor.EnableNotificationValue.ToArray();
         }
+
+        public override void Init()
+        {
+        }
+
+        public override void Deinit()
+        {
+        }
     }
 }
