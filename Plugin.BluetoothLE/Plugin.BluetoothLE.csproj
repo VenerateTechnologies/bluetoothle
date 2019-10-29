@@ -58,7 +58,7 @@
     <Compile Remove="Platforms\**\*.cs" />
     <None Include="Platforms\**\*.cs" />
     <None Remove="Platforms\Uwp\Platform.cs" />
-    <PackageReference Include="System.Reactive" Version="4.1.5" />
+    <PackageReference Include="System.Reactive" Version="4.2.0" />
   </ItemGroup>
 
   <ItemGroup Condition=" $(TargetFramework.StartsWith('monoandroid')) ">
@@ -85,10 +85,6 @@
   <ItemGroup Condition=" $(TargetFramework.StartsWith('uap')) ">
     <Compile Include="Platforms\Uwp\**\*.cs" />
     <EmbeddedResource Include="Platforms\Uwp\Plugin.BluetoothLE.rd.xml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Venerate\" />
   </ItemGroup>
 
 </Project>

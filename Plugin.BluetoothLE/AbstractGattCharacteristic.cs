@@ -31,5 +31,6 @@ namespace Plugin.BluetoothLE
         public abstract IObservable<CharacteristicGattResult> WriteWithoutResponse(byte[] value);
         public abstract IObservable<CharacteristicGattResult> Write(byte[] value);
         public abstract IObservable<CharacteristicGattResult> WhenNotificationReceived();
+        public abstract void Init();
     }
 }
